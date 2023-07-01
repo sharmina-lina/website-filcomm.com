@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  height: 450px;
+  padding: 20px;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.container {
+  display: flex;
+}
+
+.menu {
+  width: 25%;
+  background-color: #f2f2f2;
+  position: fixed;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.menu ul {
+  list-style-type: none;
+}
+.menu ul li {
+  font-size: 1.2vw;
+  margin-bottom: 1.5vw;
+  font-family: ProximaNovaRegular, Arial, Helvetica;
+}
+.menu ul li strong {
+  font-size: 2vw;
+  margin-bottom: 2vw;
+}
+.menu img {
+  width: 30%;
+  height: auto;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+.menu-divider {
+  width: 90%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.148);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content {
+  width: 70%;
+  flex-grow: 1;
+
+  padding: 20px;
+  margin-left: 25%;
+}
+.content img,
+.about_us_img img,
+.contact img {
+  width: 100%;
+  height: auto;
+}
+.home {
+  font-family: ProximaNovaRegular, Arial, Helvetica;
+  text-align: justify;
+  margin-bottom: 20px;
+  line-height: 1.8em;
+  font-size: 1.2vw;
+  letter-spacing: 0.05em;
+}
+
+.about_us,
+.partners,
+.services,
+.whyus,
+.contact,
+.dropaline {
+  font-family: ProximaNovaRegular, Arial, Helvetica;
+  text-align: justify;
+  padding-top: 10px;
+  line-height: 1.8em;
+  font-size: 1.2vw;
+  letter-spacing: 0.05em;
+  max-width: 100%;
+}
+.about_us_img {
+  max-width: 100%;
+  height: auto;
+}
+
+.yarn ul li {
+  margin-right: 70px;
+}
+
+.conatct1-2 {
+  display: flex;
+  margin-top: 20px;
+}
+.contact1,
+.contact2,
+.contact3,
+.contact4,
+.contact5,
+.contact6 {
+  flex: 1;
+  padding: 10px;
+  font-size: 1vw;
+}
+
+.conatct3-4,
+.conatct5-6 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.line {
+  border-top: 2px solid rgba(0, 0, 0, 0.336);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 80%;
+}
+.yarn,
+.sweater {
+  display: flex;
+}
+.yarn-txt,
+.yarn-pic,
+.sweater-txt,
+.sweater-pic {
+  flex: 1;
+}
+.yarn-pic img {
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 20px;
+  width: 80%;
+  height: auto;
+}
+.sweater-pic img {
+  margin-left: 120px;
+  padding-right: 20px;
+  padding-top: 20px;
+  width: 80%;
+  height: auto;
+}
+.partner1-3 img {
+  width: 30%;
+  height: auto;
+}
+
+.menu-divider {
+  width: 80%;
+  margin-left: 110px;
+}
+
+h1 {
+  font-size: 4vw;
+  text-align: center;
+  color: black;
+}
+h2 {
+  font-size: 2vw;
+  text-align: left;
+  color: black;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+h3 {
+  font-size: 2vw;
+  text-align: left;
+}
+
+form {
+  width: 100%;
+  margin: 20px auto;
+  height: auto;
+}
+
+label,
+input {
+  display: block;
+  width: 50%;
+  min-height: 30px;
+  margin-bottom: 20px;
+  height: auto;
+}
+textarea {
+  display: block;
+  width: 60%;
+  min-height: 100px;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  font-size: 1.2vw;
+  color: white;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  height: auto;
+}
+
+#response {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  height: auto;
+}
+
+span {
+  font-size: 1.6vw;
+  color: rgb(64, 62, 62);
+  font-weight: bold;
+  text-align: left;
+}
+.partner1-3 {
+  display: flex;
+  width: 90%;
+  margin-left: 10%;
+  height: auto;
+}
+.whyus li {
+  margin-left: 4%;
+  list-style: circle;
+  margin-top: 10px;
+}
